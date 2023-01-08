@@ -1,0 +1,13 @@
+{
+    "name":"Design History",
+    "description":"Design your History",
+    "version":"1.0",
+    "manifest_version":3,
+    "background":{
+        "service_worker":"background.js"
+    },
+    "permissions":["storage","declarativeContent", "activeTab", "scripting","history"],
+    "action":{
+        "default_popup":"popup.html"
+    }
+}
