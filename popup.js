@@ -1,4 +1,3 @@
-var urlToRemove = "https://twitter.com/";
 document.getElementById("button").addEventListener("click",()=>{
     const text=document.getElementById("input").value;
     chrome.history.search({text: text,    startTime: 0,maxResults:10000}).then((results) => {
